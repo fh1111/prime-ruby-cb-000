@@ -2,7 +2,7 @@
 
 def prime? (number)
 
-  if (number >0 && number < 3)
+  if (number >= 0 && number <= 2)
     puts true
 
   elsif number > 2
