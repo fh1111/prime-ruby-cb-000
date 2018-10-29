@@ -4,7 +4,7 @@ def prime? (number)
 
 
   if number > 2
-    
+
     endcount = 0
     i = 2
       while (i<number)
@@ -19,10 +19,11 @@ def prime? (number)
         return true
       else
         return false
+      end
   else
-    return true    
+    return true
   end
-  
+
 
 end
 
