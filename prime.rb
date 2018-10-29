@@ -15,4 +15,4 @@ def prime? (number)
 
 end
 
-prime?(13)
+prime?(14)
