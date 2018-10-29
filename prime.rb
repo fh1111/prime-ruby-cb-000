@@ -2,7 +2,12 @@
 
 def prime? (number)
 
-  Math.sqrt(num).floor.downto(2).each {|i| return false if num % i == 0}
-   true
+  i = 2
+    while (i<number)
+
+      puts number % i
+    end
 
 end
+
+prime(10)
