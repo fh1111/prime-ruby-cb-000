@@ -3,7 +3,7 @@
 def prime? (number)
 
   if (number >= 0 && number <= 2)
-    puts true
+    return true
 
   elsif number > 2
 
@@ -18,13 +18,13 @@ def prime? (number)
       end
 
       if (count == 0)
-        puts true
+        return true
       else
-        puts false
+        return false
       end
 
   else
-    puts false
+    return false
   end
 
 end
