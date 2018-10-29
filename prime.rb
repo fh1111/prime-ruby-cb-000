@@ -2,8 +2,10 @@
 
 def prime? (number)
 
+  if (number >0 number < 3) 
+    puts true
 
-  if number > 2
+  elsif number > 2
 
     count = 0
     i = 2
@@ -20,9 +22,9 @@ def prime? (number)
       else
         puts false
       end
-  else
-    puts true
-  end
+
+    else
+      puts false
 
 
 end
