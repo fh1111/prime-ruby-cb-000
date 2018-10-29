@@ -1,12 +1,12 @@
 # Add  code here!
 
 def prime? (number)
-  exact = false
+  count = 0
   i = 2
     while (i<number)
 
       if  (number % i == 0)
-        exact = true
+        exact += 1
       end
       i+=1
     end
