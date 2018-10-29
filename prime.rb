@@ -5,7 +5,7 @@ def prime? (number)
 
   if number > 2
 
-    endcount = 0
+    count = 0
     i = 2
       while (i<number)
 
