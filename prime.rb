@@ -23,8 +23,8 @@ def prime? (number)
         puts false
       end
 
-    else
-      puts false
+  else
+    puts false
 
 
 end
