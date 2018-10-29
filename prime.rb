@@ -29,4 +29,4 @@ def prime? (number)
 
 end
 
-prime?(-1)
+prime?(0)
