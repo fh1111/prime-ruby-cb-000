@@ -6,12 +6,12 @@ def prime? (number)
     while (i<number)
 
       if  (number % i == 0)
-        exact += 1
+        count += 1
       end
       i+=1
     end
 
-    puts exact
+    puts count
 
 end
 
