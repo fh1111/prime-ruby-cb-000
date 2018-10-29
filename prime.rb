@@ -27,4 +27,4 @@ def prime? (number)
 
 end
 
-prime?(0)
+prime?(-1)
