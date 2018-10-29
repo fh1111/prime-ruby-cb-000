@@ -16,12 +16,12 @@ def prime? (number)
       end
 
       if (count == 0)
-        puts true
+        return true
       else
-        puts false
+        return false
       end
   else
-    puts true
+    return true
   end
 
 
