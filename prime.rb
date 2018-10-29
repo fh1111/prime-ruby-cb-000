@@ -6,6 +6,7 @@ def prime? (number)
     while (i<number)
 
       puts number % i
+      i+=1
     end
 
 end
