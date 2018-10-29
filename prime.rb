@@ -1,17 +1,28 @@
 # Add  code here!
 
 def prime? (number)
-  count = 0
-  i = 2
-    while (i<number)
 
-      if  (number % i == 0)
-        count += 1
+
+  if number > 2
+    
+    endcount = 0
+    i = 2
+      while (i<number)
+
+        if  (number % i == 0)
+          count += 1
+        end
+        i+=1
       end
-      i+=1
-    end
 
-    puts count
+      if (count == 0)
+        return true
+      else
+        return false
+  else
+    return true    
+  end
+  
 
 end
 
