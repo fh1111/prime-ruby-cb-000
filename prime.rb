@@ -27,4 +27,4 @@ def prime? (number)
 
 end
 
-prime?(11)
+prime?(105557)
